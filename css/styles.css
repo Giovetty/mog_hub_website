@@ -1,0 +1,63 @@
+body {
+    background-color: #fdf2f5; /* Soft blush pink outer background */
+    margin: 0px;
+}
+
+#wrapper {
+    width: 960px;
+    background-color: #ffffff; /* Clean white card layout for high contrast */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #f8a5c2; /* Rose pink header block */
+    height: 150px; /* Added 'px' unit fix */
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    position: absolute;
+    top: 10px; /* Removed space fix */
+    left: 10px;
+}
+
+#topLinks {
+    position: absolute;
+    width: 500px;
+    top: 100px;
+    right: 10px;
+}
+
+#topLinks li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Default state: Bright mauve for clear legibility */
+a:link {
+    color: #7d2a45; 
+    text-decoration: none;
+}
+
+/* Visited state: Muted dusty rose */
+a:visited {
+    color: #9e4b6c; 
+}
+
+/* Hover state: Vibrant deep berry pink */
+a:hover {
+    color: #d63031;
+}
+
+/* Active page: Deep wine shade with underline */
+.currentPage {
+    color: #5c0f28;
+    border-bottom: 2px solid #5c0f28;
+}
+.clearFix{
+    clear: both;
+}
+main{}
