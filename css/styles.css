@@ -126,6 +126,14 @@ footer{
   grid-template-rows: repeat(2, auto);   /* 2 rows */
   gap: 10px;
 }
+#membership #col1, #membership #col3{
+  display: none;
+}
+#membership #col2{
+  float: none;
+  padding-left: 145px;
+}
+
 
 
 
