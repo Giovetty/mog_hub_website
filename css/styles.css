@@ -62,7 +62,7 @@ a:hover {
     clear: both;
 }
 main{
-    background-image:url();
+    background-image:url(/Images/hero-image.jpg);
 
 }
 #homeInfo{
