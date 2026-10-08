@@ -73,12 +73,24 @@ main{
  
 }
 h1{
-    font-size: 2cm;
+    font-size: 2em;
     color: #ffffff;
-    padding-left: 25px;
-    border-bottom: #7d2a45;
+    padding-left: 3opx;
+    border-bottom:solid thin#7d2a45;
     padding-bottom: 15px;
     margin: 0%;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding-left: 30px;
+
+}
+p{
+    font-size: 1em;
+    padding-left: 30px;
 }
 @media only screen and(max-width:960px){
  
