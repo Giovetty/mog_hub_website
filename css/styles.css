@@ -92,6 +92,43 @@ p{
     font-size: 1em;
     padding-left: 30px;
 }
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#bookings,#volunteer,#gallery,#membership{
+    background-image: none;
+    padding-left: 25px;
+}
+#col1, #col2, #col3{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+#bookings img{
+    width: 40px;
+}
+#bookings h2, #volunteer h2,#membership h2{
+    font-size: 1.5em;
+    letter-spacing: normal;
+    text-align: left;
+}
+#bookings p,#volunteer p{
+    font-size: 0.8em;
+    text-align: left;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 10px;
+}
+
+
+
 @media only screen and(max-width:960px){
  
     #wrapper{
