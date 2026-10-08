@@ -3,7 +3,8 @@ body {
     margin: 0px;
 }
 
-#wrapper {
+#wrapper {/* that is the container for all the
+page content for all pages*/
     width: 960px;
     background-color: #ffffff; /* Clean white card layout for high contrast */
     margin-left: auto;
